@@ -29,7 +29,7 @@ rule-anchor:
   domain_text: &domain_text {type: http, interval: 86400, behavior: domain, format: text}
 
 proxy-providers:
-  HH: {<<: *P, url: "https://la707.no-mad-sub.one/link/XSN1uKqwJx1RsbzI?clash=3&extend=1"}
+  HH: {<<: *P, url: "机场订阅地址"}
 
 proxies:
   - {name: 直连, type: direct, udp: true}
